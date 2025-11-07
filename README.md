@@ -1,4 +1,4 @@
-# 🚀 Flask CI/CD Project with GitHub Actions and Docker
+#  Flask CI/CD Project with GitHub Actions and Docker
 
 This project demonstrates a **real-world CI/CD pipeline** setup for a Python Flask application using **GitHub Actions** and **Docker Hub**.  
 The pipeline automatically builds, tests, and pushes Docker images whenever code is committed to the main branch.
