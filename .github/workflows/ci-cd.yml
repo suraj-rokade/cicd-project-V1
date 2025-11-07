@@ -43,5 +43,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/cicd-flask-app:latest .
-          docker push ${{ secrets.DOCKER_USERNAME }}/cicd-flask-app:latest
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/cicd-project-v1:latest .
+          docker push ${{ secrets.DOCKER_USERNAME }}/cicd-project-v1:latest
